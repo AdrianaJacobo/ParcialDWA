@@ -24,6 +24,21 @@ h2, h3, h4, h5, h6, p, li, ul, label,a{
   }
 
 
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px; /* Espacio entre elementos de lista */
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+
 
 
 
