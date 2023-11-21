@@ -12,6 +12,7 @@ h2, h3, h4, h5, h6, p, li, ul, label,a{
     background-size: cover;
   }
 
+
   #navbar {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
