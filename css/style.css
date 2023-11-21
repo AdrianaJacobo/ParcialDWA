@@ -1,27 +1,39 @@
-h1{
-    font-family: 'Oxygen', sans-serif;
-    font-weight: 700;
+h1 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
 }
 
-h2, h3, h4, h5, h6, p, li, ul, label,a{
-    font-family: 'Oxygen', sans-serif;
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+label,
+a {
+  font-family: "Oxygen", sans-serif;
 }
 
 .banner-image {
-    background-image: url("../img/banner.svg");
-    background-size: cover;
-  }
+  background-image: url("../img/banner.svg");
+  background-size: cover;
+}
 
+.banner-soporte {
+  background-image: url("../img/banner-soporte.svg");
+  background-size: cover;
+}
 
-  #navbar {
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
+#navbar {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 
-  #navbar.scrolled {
-    background-color: #000;
-  }
-
+#navbar.scrolled {
+  background-color: #000;
+}

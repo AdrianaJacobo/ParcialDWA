@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atención al cliente</title>
 
     <link
@@ -50,18 +50,161 @@
     />
 
     <link rel="stylesheet" href="./css/style.css" />
-</head>
-<body>
-    
-    
+  </head>
+  <body>
+    <div>
+      <div>
+        <nav class="navbar navbar-expand-lg fixed-top text-white" id="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand px-4" href="#">
+              <img src="./img/logoblanco.svg" alt="Bootstrap" width="80" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item px-3">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="catologo.html"
+                  >
+                    Primavera</a
+                  >
+                </li>
+                <li class="nav-item px-3">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="catologo.html"
+                    >Verano</a
+                  >
+                </li>
+                <li class="nav-item px-3">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="catologo.html"
+                    >Otoño</a
+                  >
+                </li>
+                <li class="nav-item px-3">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="catologo.html"
+                    >Invierno</a
+                  >
+                </li>
+                <li class="nav-item px-3">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="soporte.html"
+                    >Soporte</a
+                  >
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                <!-- Mueve estos botones al final usando "ml-auto" -->
+                <li class="nav-item px-3">
+                  <button
+                    type="button text-white"
+                    class="btn btn-outline-light"
+                    id="abrirModalLogin"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Login"
+                  >
+                    Iniciar Sesión
+                  </button>
+                </li>
+                <li class="nav-item px-3">
+                  <button
+                    type="button"
+                    class="btn btn-outline-light"
+                    id="abrirModalRegister"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Register"
+                  >
+                    ¡Regístrate!
+                  </button>
+                </li>
+                <li class="nav-item px-3">
+                  <button
+                    type="button"
+                    class="btn btn-outline-light"
+                    id="abrirModalCarrito"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Carrito"
+                  >
+                    <i
+                      class="fa-solid fa-cart-shopping fa-bounce"
+                      style="color: #ffffff"
+                    ></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
+        <div
+          class="banner-soporte w-100 vh-100 d-flex justify-content-center align-items-center"
+        >
+          <div class="container">
+            <div class="row py-5">
+              <div
+                class="col-md-12 col-sm-auto d-flex justify-content-center align-content-center text-white text-center"
+              >
+                <div>
+                  <img src="./img/logoblanco.svg" alt="" width="25%" />
+                  <div class="py-5">
+                    <h1 class="py-2">
+                      Servicio Floral Excepcional, Atención Inigualable
+                    </h1>
 
+                    <p class="pb-5">
+                      En Fleurs, nuestra dedicación a la excelencia no se limita
+                      solo a la calidad de nuestras flores, sino que se extiende
+                      a la experiencia completa de nuestros clientes. Nuestro
+                      compromiso con tu satisfacción es tan vibrante como los
+                      colores en nuestros arreglos, y nuestra atención al
+                      cliente refleja esta promesa. ¿Necesitas ayuda para elegir
+                      el regalo floral perfecto? ¿Tienes preguntas sobre el
+                      cuidado de tus flores o el seguimiento de tu pedido? En
+                      nuestro equipo de atención al cliente, encontrarás no solo
+                      conocimientos expertos, sino también una genuina pasión
+                      por hacer que cada interacción contigo sea especial.
+                    </p>
 
+                    <a
+                      class="btn btn-outline-light px-5"
+                      href="#soporte"
+                      role="button"
+                      >Accede a nuestro soporte personalizado</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Acá empezarás a editar    -->
+    <div class="py-5" id="soporte">
 
-
-
-
+    </div>
 
     <footer
       class="text-center text-lg-start text-white"
@@ -120,7 +263,9 @@
 
             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Servicio al cliente</h6>
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Servicio al cliente
+              </h6>
               <p>
                 <a class="text-white linksnone">Soporte</a>
               </p>
@@ -207,6 +352,5 @@
         <!-- Section: Copyright -->
       </div>
     </footer>
-
-</body>
+  </body>
 </html>
