@@ -130,6 +130,17 @@
                     ¡Regístrate!
                   </button>
                 </li>
+                <li class="nav-item px-3">
+                  <button
+                    type="button"
+                    class="btn btn-outline-light"
+                    id="abrirModalCarrito"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Carrito"
+                  >
+                  <i class="fa-solid fa-cart-shopping fa-bounce" style="color: #ffffff;"></i>
+                  </button>
+                </li>
               </ul>
             </div>
           </div>
@@ -1493,7 +1504,7 @@
     <script>
       $(document).ready(function () {
         $("#abrirModalLogin").click(function () {
-          $("#modalContainer").load("login.html", function () {
+          $("#modalContainerLog").load("login.html", function () {
             $("#Login").modal("show");
           });
         });
@@ -1503,7 +1514,7 @@
     <script>
       $(document).ready(function () {
         $("#abrirModalRegister").click(function () {
-          $("#modalContainer").load("register.html", function () {
+          $("#modalContainerReg").load("register.html", function () {
             $("#Register").modal("show");
           });
         });
@@ -1513,13 +1524,26 @@
     <script>
       $(document).ready(function () {
         $("#abrirModalDetalle").click(function () {
-          $("#modalContainer").load("detalle.html", function () {
+          $("#modalContainerDet").load("detalle.html", function () {
             $("#Detalle").modal("show");
           });
         });
       });
     </script>
 
+    <script>
+      $(document).ready(function () {
+        $("#abrirModalCarrito").click(function () {
+          $("#modalContainer").load("carrito.html", function () {
+            $("#Carrito").modal("show");
+          });
+        });
+      });
+    </script>
+
     <div id="modalContainer"></div>
+    <div id="modalContainerDet"></div>
+    <div id="modalContainerLog"></div>
+    <div id="modalContainerReg"></div>
   </body>
 </html>
